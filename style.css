@@ -16,17 +16,21 @@ div.content{
 div.navbar{
     
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
     background-color: rgba(0,0,0,0.6);
+}
+div.navbarjoinnavbar{
+    background-color: black;
+    
 }
 div.navbar a{
     
    color:white;
-   margin-top:25px;
+   margin:20px;
     
 }
-div.navbar button{
+div.navbar a.join{
     padding:10px;
     border-radius: 8px;
     border: 2px solid white;
@@ -204,6 +208,106 @@ div.testi div.img{
     background-image: url(boy.png);
     background-size: cover;
     background-position: center;
-    border: 1px solid black;s
+    border: 1px solid black;
 }
+
+div.pricing h2{
+text-align: center;
+}    
+div.prices{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin:auto;
+    text-align: center;
+}
+div.price{
+    width: 30%;
+    background-color: darkcyan;
+    color: white;
+    margin: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+div.price button{padding:10px;
+    border-radius: 8px;
+    background-color:transparent;
+    color:white;
+    border: 1px solid white;   
+}
+div.planprice{
+   background-color: darkblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.planpice h3{
+    margin: 0px;
     
+}
+div.joinform{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50p;
+}
+div.joinform div.image, div.joinform div.form{
+    width: 35%; 
+}
+div.joinform div.form{
+    width: 65%;
+    
+}
+div.joinform div.image{
+    background-image: url(fantasy1.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+}
+form imput, form button{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+}
+form{
+   display: flex;
+    flex-direction: column;
+    width: 60%;
+        margin:auto;
+    padding-top: 100px;
+}
+form button{
+    background-color: blue;
+    color: white;
+    
+}
+div.footer{
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    padding:10px;
+    margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
